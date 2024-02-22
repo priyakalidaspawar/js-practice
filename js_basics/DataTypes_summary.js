@@ -41,3 +41,24 @@ console.log(typeof fruits); //object
 console.log(typeof myObj); //object
 console.log(typeof anotherId); //symbol
  
+//****************************MEMORY********************************************/
+
+// STACK(Primitive)  , Heap(Non Primitive)
+
+let song = "abc"
+let anotherSong = song
+anotherSong = "xyz"
+
+console.log(song); //abc
+console.log(anotherSong); //xyz
+
+let userOne = {
+    email: "user@google.com",
+    age: 20
+}
+let userTwo = userOne
+
+userTwo.email = "hello@google.com"
+
+console.log(userOne.email); //hello@google.com
+console.log(userTwo.email); //hello@google.com
