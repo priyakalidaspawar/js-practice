@@ -7,9 +7,9 @@
 // console.log(3+3)
 // console.log("Hii") //readable code
 
-let name = "Priya"
-let age = 22
-let isLoggedIn = false
+let name = "Priya" //string
+let age = 22 // number
+let isLoggedIn = false //boolean
 
 //Data Types-->
 
