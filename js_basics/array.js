@@ -23,6 +23,20 @@ myArray.pop()
 // console.log(myArray.indexOf(6)); // 4
 
 const newArr = myArray.join()
-console.log(myArray); // [ 2, 3, 4, 5, 6, 7 ]
-console.log(newArr); // 2,3,4,5,6,7
-console.log(typeof newArr); // string
+// console.log(myArray); // [ 2, 3, 4, 5, 6, 7 ]
+// console.log(newArr); // 2,3,4,5,6,7
+// console.log(typeof newArr); // string
+
+// slice, splice
+
+console.log("A ", myArray);// A  [ 2, 3, 4, 5, 6, 7 ]
+
+const myn1 = myArray.slice(1, 3) // [ 3, 4 ]
+
+console.log(myn1); // [ 3, 4 ]
+console.log("B ", myArray); // B  [ 2, 3, 4, 5, 6, 7 ]
+
+
+const myn2 = myArray.splice(1, 3)
+console.log("C ", myArray); // C  [ 2, 6, 7 ]
+console.log(myn2); // [ 3, 4, 5 ]
